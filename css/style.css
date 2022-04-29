@@ -1,0 +1,127 @@
+body{
+    box-sizing: border-box;
+    background: rgb(169,214,229);
+    background: linear-gradient(90deg, rgba(169,214,229,1) 0%, rgba(240,239,235,1) 50%, rgba(253,252,220,1) 100%);
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.813);
+    text-align: center;
+    color: #8d99aef8;
+}
+
+#table-container{
+    margin: auto;
+    margin-top: 3vw;
+    
+}
+
+#game-table{
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    text-shadow: 1px 1px 2px rgb(116, 116, 134);
+    color: white;
+}
+
+
+td.table-cell{
+    border: 0.03em solid rgba(255, 255, 255, 0.739);
+    width: 12vw;
+    height: 12vw;
+    background-color: #8d99ae63; 
+    border-radius: 20%;
+    font-size: 5em;
+}
+
+td.table-cell:hover{
+    box-shadow: 1px 1px 4px  black inset,-1px -1px 4px  rgba(0, 0, 0, 0.388) inset;
+    background-color: #8d99aef8;
+    border: 0.03em solid rgb(255, 255, 255);
+    cursor: pointer; 
+}
+
+td.table-cell:focus{
+    background-color: black;
+
+}
+
+#submit ,#toggle-menu{
+    padding: 0.5vw;
+    margin-top: 1.5vw;
+    font-size: 2vw;
+    text-decoration: none;
+    background-color: #8d99ae41;
+    width: 16vw;
+    height: 4vw;
+    border-radius: 1vw;
+    cursor: pointer;
+    border: 0.15em solid rgb(255, 255, 255);
+    color: white;
+    font-weight: 700;
+}
+#submit{
+    position: absolute;
+    left:33vw;
+}
+
+#toggle-menu{
+    position: absolute;
+    right: 33vw;
+}
+
+#submit:hover ,#toggle-menu:hover{
+    background-color: #8d99ae;
+    transition: 0.3s;
+}
+
+#signUp-box{
+    width: 30vw;
+    padding: 2vw;
+    background-color:#8d99ae63;
+    border-radius: 1vw;
+    margin: auto;
+    margin-top: 2vw;
+}
+
+label{
+    font-size: 1.7vw;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.813);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input.Name{
+    margin-left: 4.85vw;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    width:20vw;
+    height: 2vw;
+    border-radius: 0.5vw;
+    border: 0.15vw solid #8d99aef8;
+}
+
+input.Name:focus{
+    border: 0.2vw solid rgb(133, 233, 156);
+}
+input.SubmitName{
+    margin-left: 4.85vw;
+    margin-bottom: 1vw;
+    margin-top: 3vw;
+    width:20vw;
+    height: 2.5vw;
+    border-radius: 0.5vw;
+    background-color: rgb(133, 233, 156);
+    border: 0.15vw solid rgb(255, 255, 255);
+    color: white;
+    font-weight: 600;
+}
+
+input.SubmitName:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.381);
+    background-color: rgb(99, 191, 120);
+    transition: 0.4s;
+}
